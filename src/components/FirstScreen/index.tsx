@@ -12,7 +12,7 @@ export default function FirstScreen() {
       <div className='flex-1 flex flex-col items-center justify-center'>
         <h1 className='font-extrabold text-9xl tracking-wider'>Petales</h1>
 
-        <p className=' mt-4 text-2xl italic'>Where Light Meets Grace: Timeless Feminine Portraiture</p>
+        <p className=' mt-4 text-2xl italic'>Eternal Bloom in Light and Shadow</p>
       </div>
     </section>
   )

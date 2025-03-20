@@ -11,11 +11,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Footer() {
   return (
     <footer className='h-screen flex flex-col items-center justify-center'>
-      <div className='flex-1 flex items-center justify-center'>
-        <p className='w-1/2 text-center text-2xl italic'>
-          &quot; A symphony of shadows and silvers, this series explores the enigmatic allure of women under the
-          twilight&apos;s embrace. Each frame whispers of secrets kept and stories yet untold—where the softness of
-          moonlight meets the resilience of stardust. &quot;
+      <div className='flex-1 flex flex-col items-center justify-center'>
+        <p className='text-2xl italic'>Every petal carries a unique vein</p>
+
+        <p className='text-2xl italic mt-10'>
+          &quot;Her smile rivals the bloom of spring, her complexion the dawn&apos;s blush&quot;
         </p>
       </div>
 

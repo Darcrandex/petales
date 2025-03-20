@@ -3,8 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Petales',
-  description:
-    'Petales is a sanctuary for celebrating the multifaceted beauty of women through the lens of artistry. We believe light is both a sculptor and a storyteller',
+  description: 'Discover the beauty of all women around the world',
 }
 
 export default function RootLayout({
