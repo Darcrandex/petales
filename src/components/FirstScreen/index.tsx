@@ -10,7 +10,7 @@ export default function FirstScreen() {
       <header className='m-4'>logo</header>
 
       <div className='flex-1 flex flex-col items-center justify-center'>
-        <h1 className='font-extrabold text-9xl tracking-wider'>Luminous</h1>
+        <h1 className='font-extrabold text-9xl tracking-wider'>Petales</h1>
 
         <p className=' mt-4 text-2xl italic'>Where Light Meets Grace: Timeless Feminine Portraiture</p>
       </div>

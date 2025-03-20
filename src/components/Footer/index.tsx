@@ -24,7 +24,7 @@ export default function Footer() {
           <FontAwesomeIcon icon={faEnvelope} width={16} />
         </a>
 
-        <a href='https://github.com/Darcrandex/luminous' className='inline-flex items-center gap-1'>
+        <a href='https://github.com/Darcrandex/petales' className='inline-flex items-center gap-1'>
           <FontAwesomeIcon icon={faGithub} width={16} />
         </a>
       </p>
