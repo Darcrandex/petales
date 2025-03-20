@@ -4,17 +4,21 @@
  * @author darcrand
  */
 
+import { faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 export default function Footer() {
   return (
     <footer className='h-screen'>
-      <h3>Where Light Meets Grace: Timeless Feminine Portraiture</h3>
-      <p>Illuminate Elegance Through Every Frame</p>
+      <p>
+        A symphony of shadows and silvers, this series explores the enigmatic allure of women under the twilight&apos;s
+        embrace. Each frame whispers of secrets kept and stories yet untold—where the softness of moonlight meets the
+        resilience of stardust.
+      </p>
 
       <p>
-        Lumina Grace was born from a passion to redefine feminine beauty through the lens of artistry. We believe every
-        woman&apos;s essence is a unique interplay of light and emotion, waiting to be captured. Our photographers blend
-        technical precision with poetic intuition to create images that transcend time—a testament to strength,
-        vulnerability, and the infinite grace within.
+        <FontAwesomeIcon icon={faEnvelope} width={16} />
+        <FontAwesomeIcon icon={faComment} width={16} />
       </p>
     </footer>
   )

@@ -11,6 +11,9 @@ import { initLenis } from './animate'
 import './styles.css'
 import { generateGrid, loadImageAsync, shuffleArray } from './utils'
 
+const MAX_LOAD_IMAGE_COUNT = 10
+const COLUMNS = 4
+
 export default function PhotoFlow() {
   const [imageUrls, setImageUrls] = useState<string[]>([])
   const [loaded, setLoaded] = useState(false)
@@ -20,7 +23,7 @@ export default function PhotoFlow() {
   // 尺寸大于 512x512
   useEffect(() => {
     const fn = async () => {
-      const imageCount = 30
+      const imageCount = MAX_LOAD_IMAGE_COUNT
       const tasks = Array(imageCount)
         .fill(0)
         .map(async () => {
@@ -45,7 +48,7 @@ export default function PhotoFlow() {
   // 根据图片构建行列数据
   const grid: (string | null)[][] = useMemo(() => {
     if (imageUrls.length === 0) return []
-    return generateGrid(4, shuffleArray(imageUrls))
+    return generateGrid(COLUMNS, shuffleArray(imageUrls))
   }, [imageUrls])
 
   useEffect(() => {
