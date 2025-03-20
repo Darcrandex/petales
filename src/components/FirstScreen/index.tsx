@@ -6,10 +6,14 @@
 
 export default function FirstScreen() {
   return (
-    <section className='h-screen'>
-      <h1>Luminous</h1>
+    <section className='h-screen flex flex-col'>
+      <header className='m-4'>logo</header>
 
-      <p>Where Light Meets Grace: Timeless Feminine Portraiture</p>
+      <div className='flex-1 flex flex-col items-center justify-center'>
+        <h1 className='font-extrabold text-9xl tracking-wider'>Luminous</h1>
+
+        <p className=' mt-4 text-2xl italic'>Where Light Meets Grace: Timeless Feminine Portraiture</p>
+      </div>
     </section>
   )
 }
